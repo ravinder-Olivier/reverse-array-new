@@ -1,0 +1,24 @@
+{
+  "name": "reverse-array-new",
+  "version": "1.0.0",
+  "description": "Drop in replacement for reverse-array npm package",
+  "main": "main.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravinder-Olivier/reverse-array-new.git"
+  },
+  "author": "Ravinder Olivier Dadiala <ravinder-Olivier@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ravinder-Olivier/reverse-array-new/issues"
+  },
+  "homepage": "https://github.com/ravinder-Olivier/reverse-array-new#readme",
+  "exports": {
+        "import": "./index.js",
+        "require": "./index.js"
+    }
+
+}
