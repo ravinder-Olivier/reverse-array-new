@@ -5,6 +5,7 @@
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "License": "Apache-2.0",
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts --clean",
     "watch": "npm run build -- --watch src",
@@ -16,7 +17,6 @@
     "url": "git+https://github.com/ravinder-Olivier/reverse-array-new.git"
   },
   "author": "Ravinder Olivier Dadiala <ravinder-Olivier@outlook.com>",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ravinder-Olivier/reverse-array-new/issues"
   },
