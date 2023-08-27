@@ -2,7 +2,7 @@ name: testing
 run-name: ${{ github.actor }} is testing their commit
 on: [push]
 jobs:
-  run-defined-frontend-tests:
+  test-reverser:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
